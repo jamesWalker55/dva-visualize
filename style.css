@@ -1,0 +1,39 @@
+/*
+colors
+https://coolors.co/9e6240-dea47e-cd4631-f8f2dc-81adc8
+9e6240
+dea47e
+cd4631
+f8f2dc
+81adc8
+ */
+
+body {
+	background-color: #f4f1de;
+}
+
+#full-screen {
+	min-width: 100vw;
+	min-height: 100vh;
+	max-width: 100vw;
+	max-height: 100vh;
+	overflow: hidden;
+}
+
+#ratio-test {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: rgb(255,255,255,0.97);
+	display: flex;
+	display: none;
+	flex-direction: column;
+	opacity: 0.3;
+}
+
+#ratio-a { flex-grow: 1; background-color: #cd4631;}
+#ratio-b { flex-grow: 1; background-color: #9e6240;}
+#ratio-c { flex-grow: 1; background-color: #81adc8;}
+#ratio-d { flex-grow: 1.5; background-color: #f8f2dc;}
